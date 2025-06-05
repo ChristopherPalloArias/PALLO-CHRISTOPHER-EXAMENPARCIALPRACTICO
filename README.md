@@ -10,6 +10,14 @@ SI10 P01 – Sistemas de Información -
 Universidad Central del Ecuador
 
 ---
+## 🎬 Video tutorial
+[![Ver en YouTube](https://img.youtube.com/vi/0XkFtcwQtRU/0.jpg)](https://youtu.be/0XkFtcwQtRU)
+
+Haz clic en la imagen o visita el siguiente enlace para ver la presentación completa del proyecto:
+
+🔗 https://youtu.be/0XkFtcwQtRU
+
+---
 ## 🧩 Tecnologías utilizadas
 
 - 🐍 Python 3.11+
@@ -163,7 +171,5 @@ Desde `/docs` puedes:
 - ✔️ Botones de ejemplo rápido y limpieza inmediata
 - ✔️ Pruebas usando archivo `.http` desde IntelliJ
 
----
 
-## 🎬 Video tutorial
 
