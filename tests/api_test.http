@@ -1,0 +1,26 @@
+### 1. Verificar si la API está corriendo
+GET http://localhost:8000/
+
+### 2. Clasificar mensaje - URGENTE
+POST http://localhost:8000/clasificar
+Content-Type: application/json
+
+{
+  "texto": "¡Hay un incendio en el laboratorio! Necesitamos ayuda inmediata."
+}
+
+### 3. Clasificar mensaje - MODERADO
+POST http://localhost:8000/clasificar
+Content-Type: application/json
+
+{
+  "texto": "He notado que algunos correos no llegan a tiempo. Sería bueno revisarlo en los próximos días."
+}
+
+### 4. Clasificar mensaje - NORMAL
+POST http://localhost:8000/clasificar
+Content-Type: application/json
+
+{
+  "texto": "Les recuerdo que la reunión del viernes fue reprogramada para el lunes a las 10am."
+}

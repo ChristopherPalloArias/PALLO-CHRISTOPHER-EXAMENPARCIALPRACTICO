@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales y configuraciones de PyCharm
+.idea/
+__pycache__/
+
+# Entorno de variables
+.env

@@ -1,0 +1,94 @@
+/* =================== FONT AWESOME ===================*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+/* =================== ESTILOS GENERALES ===================*/
+.main-title {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #262730;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+/* =================== ICONOS DE CATEGORÍAS ===================*/
+.icon-urgent {
+    color: #ff4444;
+}
+
+.icon-moderate {
+    color: #ff8800;
+}
+
+.icon-normal {
+    color: #44aa44;
+}
+
+/* =================== CAJAS DE RESULTADO ===================*/
+.result-box {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.result-box h4 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+.urgent-box {
+    background-color: #8B0000;
+}
+
+.moderate-box {
+    background-color: #e68a00;
+}
+
+.normal-box {
+    background-color: #2e8b57;
+}
+
+/* =================== ESTILOS PARA SECCIONES ===================*/
+.section-title {
+    color: #262730;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.category-item {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.category-item strong {
+    font-weight: 600;
+}
+
+/* =================== BOTONES PERSONALIZADOS ===================*/
+.stButton > button {
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* =================== ÁREA DE TEXTO ===================*/
+.stTextArea > div > div > textarea {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.stTextArea > div > div > textarea:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
