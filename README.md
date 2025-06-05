@@ -47,8 +47,8 @@ FastAPIProject/
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/clasificador-mensajes.git
-cd clasificador-mensajes
+git clone https://github.com/ChristopherPalloArias/PALLO-CHRISTOPHER-EXAMENPARCIALPRACTICO.git
+cd PALLO-CHRISTOPHER-EXAMENPARCIALPRACTICO
 ```
 
 ### 2. Crea y activa un entorno virtual
@@ -81,9 +81,17 @@ Disponible en: [http://localhost:8000](http://localhost:8000)
 
 ### 5. Ejecuta el frontend (Streamlit)
 
+> 💡 **Importante:** Si abriste una nueva terminal para el frontend, asegúrate de **activar nuevamente el entorno virtual**, ya que cada terminal tiene su propio contexto.
+
 ```bash
-cd ../frontend
+# Si estás en una nueva terminal, activa el entorno:
+source .venv/bin/activate      # Linux/macOS
+.venv\Scripts\activate         # Windows
+
+# Luego ejecuta el frontend:
+cd frontend
 streamlit run streamlit_app.py
+
 ```
 
 Disponible en: [http://localhost:8501](http://localhost:8501)
